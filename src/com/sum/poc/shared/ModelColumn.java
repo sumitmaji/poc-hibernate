@@ -1,0 +1,69 @@
+package com.sum.poc.shared;
+
+public interface ModelColumn {
+//columns name
+public String EMPLOYEE_FIRST_NAME = "firstName";
+public String EMPLOYEE_ID = "id";
+public String EMPLOYEE_LAST_NAME="lastName";
+public String EMPLOYEE_HIRE_DATE = "hireDate";
+public String EMPLOYEE_JOB_TITLE = "jobTitle";
+public String EMPLOYEE_DEPARTMENT_NAME = "deptName";
+public String EMPLOYEE_DEPARTMENT_ID = "deptId";
+
+public String DEPARTMENT_XML_READER = EntityColumnNames.TABLE_DEPARTMENT;
+//column mapping
+public String MAP_EMPLOYEE_FIRST_NAME = "firstName";
+public String MAP_EMPLOYEE_ID = "id";
+public String MAP_EMPLOYEE_LAST_NAME="lastName";
+public String MAP_EMPLOYEE_HIRE_DATE = "hireDate";
+public String MAP_EMPLOYEE_JOB_TITLE = "job/jobTitle";
+public String MAP_EMPLOYEE_DEPARTMENT_NAME = "deptId/deptName";
+public String MAP_EMPLOYEE_DEPARTMENT_ID = "deptId/id";
+
+
+
+//Status
+public String MESSAGE_UPDATE_SUCCESS = "Record updated successfully.";
+public String MESSAGE_SAVE = "Saving data...";
+public String MESSAGE_LOAD = "Loading...";
+public String MESSAGE_INFO = "Info";
+public String MESSAGE_NO_DATA = "No Record Found.";
+
+
+
+//HEAD ROW
+public String EMPLOYEE_XML_READER = "employee";
+public String COUNT_XML_READER = "count";
+
+//GWT COLUMN
+public String EMPLOYEE_ID_GWT = EntityColumnNames.TABLE_EMPLOYEE_ID;
+public String EMPLOYEE_FIRST_NAME_GWT = EntityColumnNames.TABLE_EMPLOYEE_FIRSTNAME;	
+public String EMPLOYEE_LAST_NAME_GWT = EntityColumnNames.TABLE_EMPLOYEE_LASTNAME;
+public String EMPLOYEE_SALARY_GWT = EntityColumnNames.TABLE_EMPLOYEE_SALARY;
+public String EMPLOYEE_EMAIL_GWT = EntityColumnNames.TABLE_EMPLOYEE_EMAILID;
+public String EMPLOYEE_HIREDATE_GWT = EntityColumnNames.TABLE_EMPLOYEE_HIREDATE;
+public String EMPLOYEE_COMMISSIONPCT_GWT = EntityColumnNames.TABLE_EMPLOYEE_COMMISIONPCT;
+public String EMPLOYEE_JOB_ID_GWT = EntityColumnNames.TABLE_EMPLOYEE_JOB+"."+EntityColumnNames.TABLE_JOB_ID;
+public String EMPLOYEE_JOB_TITLE_GWT = EntityColumnNames.TABLE_EMPLOYEE_JOB+"."+EntityColumnNames.TABLE_JOB_TITLE;
+public String EMPLOYEE_JOB_MAXSALARY_GWT = EntityColumnNames.TABLE_EMPLOYEE_JOB+"."+EntityColumnNames.TABLE_JOB_MAXSALARY;
+public String EMPLOYEE_JOB_MINSALARY_GWT = EntityColumnNames.TABLE_EMPLOYEE_JOB+"."+EntityColumnNames.TABLE_JOB_MINSALARY;
+public String EMPLOYEE_DEPARTMENT_ID_GWT = EntityColumnNames.TABLE_EMPLOYEE_DEPARTMENT+"."+EntityColumnNames.TABLE_DEPARTMENT_ID;
+public String EMPLOYEE_DEPARTMENT_NAME_GWT = EntityColumnNames.TABLE_EMPLOYEE_DEPARTMENT+"."+EntityColumnNames.TABLE_DEPARTMENT_NAME;
+public String EMPLOYEE_DEPARTMENT_LOCATIONID_GWT = EntityColumnNames.TABLE_EMPLOYEE_DEPARTMENT+"."+EntityColumnNames.TABLE_DEPARTMENT_LOCATION+"."+EntityColumnNames.TABLE_LOCATION_ID;
+public String EMPLOYEE_DEPARTMENT_LOCATIONADDRESS_GWT = EntityColumnNames.TABLE_EMPLOYEE_DEPARTMENT+"."+EntityColumnNames.TABLE_DEPARTMENT_LOCATION+"."+EntityColumnNames.TABLE_LOCATION_ADDRESS;
+public String EMPLOYEE_DEPARTMENT_LOCATIONPOSTALCODE_GWT = EntityColumnNames.TABLE_EMPLOYEE_DEPARTMENT+"."+EntityColumnNames.TABLE_DEPARTMENT_LOCATION+"."+EntityColumnNames.TABLE_LOCATION_POSTAL_CODE;
+public String EMPLOYEE_DEPARTMENT_LOCATIONCITY_GWT = EntityColumnNames.TABLE_EMPLOYEE_DEPARTMENT+"."+EntityColumnNames.TABLE_DEPARTMENT_LOCATION+"."+EntityColumnNames.TABLE_LOCATION_CITY;
+public String EMPLOYEE_DEPARTMENT_LOCATIONSTATEPROVINCE_GWT = EntityColumnNames.TABLE_EMPLOYEE_DEPARTMENT+"."+EntityColumnNames.TABLE_DEPARTMENT_LOCATION+"."+EntityColumnNames.TABLE_LOCATION_STATE_PROVINCE;
+public String EMPLOYEE_DEPARTMENT_LOCATION_COUNTRYID__GWT = EntityColumnNames.TABLE_EMPLOYEE_DEPARTMENT+"."+EntityColumnNames.TABLE_DEPARTMENT_LOCATION+"."+EntityColumnNames.TABLE_LOCATION_COUNTRY+"."+EntityColumnNames.TABLE_COUNTRY_ID;
+public String EMPLOYEE_DEPARTMENT_LOCATION_COUNTRYNAME__GWT = EntityColumnNames.TABLE_EMPLOYEE_DEPARTMENT+"."+EntityColumnNames.TABLE_DEPARTMENT_LOCATION+"."+EntityColumnNames.TABLE_LOCATION_COUNTRY+"."+EntityColumnNames.TABLE_COUNTRY_NAME;
+public String EMPLOYEE_DEPARTMENT_LOCATION_COUNTRY_REGIONID__GWT = EntityColumnNames.TABLE_EMPLOYEE_DEPARTMENT+"."+EntityColumnNames.TABLE_DEPARTMENT_LOCATION+"."+EntityColumnNames.TABLE_LOCATION_COUNTRY+"."+EntityColumnNames.TABLE_COUNTRY_REGION+"."+EntityColumnNames.TABLE_REGION_ID;
+public String EMPLOYEE_DEPARTMENT_LOCATION_COUNTRY_REGIONNAME__GWT = EntityColumnNames.TABLE_EMPLOYEE_DEPARTMENT+"."+EntityColumnNames.TABLE_DEPARTMENT_LOCATION+"."+EntityColumnNames.TABLE_LOCATION_COUNTRY+"."+EntityColumnNames.TABLE_COUNTRY_REGION+"."+EntityColumnNames.TABLE_REGION_NAME;
+public String EMPLOYEE_DEPARTMENT_MANAGERID_GWT = EntityColumnNames.TABLE_EMPLOYEE_DEPARTMENT+"."+EntityColumnNames.TABLE_DEPARTMENT_MANAGERID;
+
+public String DEPARTMENT_ID_GWT=EntityColumnNames.TABLE_DEPARTMENT_ID;
+public String DEPARTMENT_NAME_GWT=EntityColumnNames.TABLE_DEPARTMENT_NAME;
+public String DEPARTMENT_ID_XML=EntityColumnNames.TABLE_DEPARTMENT_ID;
+public String DEPARTMENT_NAME_XML=EntityColumnNames.TABLE_DEPARTMENT_NAME;
+
+
+}
